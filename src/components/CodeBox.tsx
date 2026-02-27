@@ -1,6 +1,6 @@
 const CodeBox = () => {
   return (
-    <div className="max-w-xl min-w-lg text-black bg-[#111724]  rounded-md">
+    <div className="min-w-[80vw] md:min-w-lg max-w-[85vw] md:max-w-xl text-black bg-[#111724] rounded-md">
       <div className="p-4">
         <div className="flex items-center gap-2">
           <button className="h-3 w-3 rounded-full bg-red-500" />
