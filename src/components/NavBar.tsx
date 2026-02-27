@@ -22,7 +22,7 @@ function scrollToSection(id: string) {
 const NavBar = () => {
   return (
     <>
-      <header className="sticky top-0 z-50 bg-[rgb(9,14,26)] opacity-70 ">
+      <header className="sticky top-0 z-50 bg-[rgb(9,14,26)] opacity-70  ">
         <div className="px-5 md:max-w-7xl mx-auto xl:px-8">
           <div className="py-6  justify-between items-center flex">
             <div className="font-mono  text-[#3edece] text-lg">{"<dev />"}</div>

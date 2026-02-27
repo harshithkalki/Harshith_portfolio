@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="text-5xl md:text-7xl font-sans font-medium my-2">
             Harshith Chiluka.
           </div>
-          <div className="text-4xl md:text-6xl font-medium text-[#7487a3] mb-6 text-ellipsis overflow-hidden whitespace-nowrap">
+          <div className="text-4xl md:text-6xl font-medium text-[#7487a3] pb-8 text-ellipsis overflow-hidden whitespace-nowrap">
             I build things for the web.
           </div>
           <CodeBox />
