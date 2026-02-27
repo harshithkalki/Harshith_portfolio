@@ -12,7 +12,7 @@ import NavBar from "./components/NavBar";
 function App() {
   return (
     <>
-      <div className="min-h-screen text-white bg-[#080c17] ">
+      <div className="min-h-screen text-white bg-[#080c17]  ">
         <NavBar />
         <Hero />
 

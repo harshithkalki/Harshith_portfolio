@@ -23,7 +23,7 @@ const NavBar = () => {
   return (
     <>
       <header className="sticky top-0 z-50 bg-[rgb(9,14,26)] opacity-70 ">
-        <div className="max-w-7xl mx-auto">
+        <div className="max-w-7xl mx-auto xl: px-8">
           <div className="py-6  justify-between items-center flex">
             <div className="font-mono  text-[#3de0d0] text-lg">{"<dev />"}</div>
             <nav className="hidden md:flex items-center gap-6">
