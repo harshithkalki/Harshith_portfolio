@@ -7,7 +7,7 @@ const About = () => {
         <pre className="text-2xl font-semibold">
           <span className="font-normal text-[#3de0d0]">01. </span>About Me
         </pre>
-        <div className="flex flex-col md:flex-row justify-around md:justify-between  items-center mt-8">
+        <div className="flex flex-col md:flex-row justify-around md:justify-between items-center mt-8">
           <div className="mt-8 text-[#7487a3] w-[95%] md:w-[60%]">
             Hello! I'm Harshith, a full-stack developer passionate about
             building exceptional digital experiences. My journey in web
