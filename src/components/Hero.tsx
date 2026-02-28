@@ -2,7 +2,7 @@ import CodeBox from "./CodeBox";
 
 const Hero = () => {
   return (
-    <div className="relative ">
+    <div className="relative" id="home">
       <div className="flex mx-auto max-w-7xl items-center min-h-screen md:min-h-[90vh] xl:px-0 px-8 text-wrap">
         <div>
           <div className="text-[#3de0d0] text-lg font-sans ">

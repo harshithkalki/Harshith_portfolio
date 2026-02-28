@@ -1,6 +1,7 @@
 import About from "./components/About";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
+import Skills from "./components/Skills";
 function Section({ id, title }: { id: string; title: string }) {
   return (
     <section id={id} className="mx-auto max-w-5xl px-6 py-20">
@@ -20,9 +21,10 @@ function App() {
         <NavBar />
         <Hero />
         <About />
+        <Skills />
 
         {/* <Section id="about" title="About" /> */}
-        <Section id="skills" title="Skills" />
+        {/* <Section id="skills" title="Skills" /> */}
         <Section id="projects" title="Projects" />
       </div>
     </>
