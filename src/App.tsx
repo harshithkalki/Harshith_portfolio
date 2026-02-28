@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
 function Section({ id, title }: { id: string; title: string }) {
@@ -13,13 +14,14 @@ function App() {
   return (
     <>
       <div className="min-h-screen text-white bg-[#080c17]">
-        <div className="absolute top-60 -left-40 w-[650px] h-[650px] bg-teal-400/20 rounded-full blur-[160px] pointer-events-none" />
-        <div className="absolute -bottom-40 -right-40 w-[650px] h-[650px] bg-cyan-400/10 rounded-full blur-[160px] pointer-events-none" />
+        <div className="absolute top-60 -left-40 w-xl md:w-2xl h-168 bg-[#074a44] rounded-full blur-[160px] pointer-events-none" />
+        {/* <div className="absolute -bottom-20 right-0 w-2xl h-168 bg-cyan-400/10 rounded-full blur-[160px] pointer-events-none" /> */}
 
         <NavBar />
         <Hero />
+        <About />
 
-        <Section id="about" title="About" />
+        {/* <Section id="about" title="About" /> */}
         <Section id="skills" title="Skills" />
         <Section id="projects" title="Projects" />
       </div>
