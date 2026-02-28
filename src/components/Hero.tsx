@@ -3,7 +3,7 @@ import CodeBox from "./CodeBox";
 const Hero = () => {
   return (
     <div className="relative ">
-      <div className="flex mx-auto max-w-7xl items-center min-h-screen md:min-h-[90vh] xl:px-0 px-8">
+      <div className="flex mx-auto max-w-7xl items-center min-h-screen md:min-h-[90vh] xl:px-0 px-8 text-wrap">
         <div>
           <div className="text-[#3de0d0] text-lg font-sans ">
             Hi, my name is
@@ -11,7 +11,7 @@ const Hero = () => {
           <div className="text-5xl md:text-7xl font-sans font-medium my-2">
             Harshith Chiluka.
           </div>
-          <div className="text-4xl md:text-6xl font-medium text-[#7487a3] pb-8 text-ellipsis overflow-hidden whitespace-nowrap">
+          <div className="text-4xl md:text-6xl font-medium text-[#7487a3] pb-8 text-wrap">
             I build things for the web.
           </div>
           <CodeBox />

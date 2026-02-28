@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className="min-h-screen text-white bg-[#080c17]">
-        <div className="absolute top-60 -left-40 w-xl md:w-2xl h-168 bg-[#074a44] rounded-full blur-[160px] pointer-events-none" />
+        <div className="absolute top-60 -left-40 w-lg md:w-2xl h-168 bg-[#074a44] rounded-full blur-[160px] pointer-events-none" />
         {/* <div className="absolute -bottom-20 right-0 w-2xl h-168 bg-cyan-400/10 rounded-full blur-[160px] pointer-events-none" /> */}
 
         <NavBar />
