@@ -1,15 +1,16 @@
 import About from "./components/About";
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
+import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-function Section({ id, title }: { id: string; title: string }) {
-  return (
-    <section id={id} className="mx-auto max-w-5xl px-6 py-20">
-      <h2 className="text-2xl font-semibold">{title}</h2>
-      <div className="mt-6 h-32 rounded-2xl border border-white/10 bg-white/5" />
-    </section>
-  );
-}
+// function Section({ id, title }: { id: string; title: string }) {
+//   return (
+//     <section id={id} className="mx-auto max-w-5xl px-6 py-20">
+//       <h2 className="text-2xl font-semibold">{title}</h2>
+//       <div className="mt-6 h-32 rounded-2xl border border-white/10 bg-white/5" />
+//     </section>
+//   );
+// }
 
 function App() {
   return (
@@ -22,10 +23,11 @@ function App() {
         <Hero />
         <About />
         <Skills />
+        <Projects />
 
         {/* <Section id="about" title="About" /> */}
         {/* <Section id="skills" title="Skills" /> */}
-        <Section id="projects" title="Projects" />
+        {/* <Section id="projects" title="Projects" /> */}
       </div>
     </>
   );
