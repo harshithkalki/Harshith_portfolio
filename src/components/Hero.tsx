@@ -15,9 +15,15 @@ const Hero = () => {
             I build things for the web.
           </div>
           <CodeBox />
-          <button className="p-3 mt-6 bg-[#3edece] text-base text-black rounded-md cursor-pointer">
-            View My Work
-          </button>
+          <a
+            href="https://github.com/harshithkalki"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="p-3 mt-6 bg-[#3edece] text-base text-black rounded-md cursor-pointer">
+              View My Work
+            </button>
+          </a>
         </div>
       </div>
     </div>
