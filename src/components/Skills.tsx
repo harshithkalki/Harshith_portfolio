@@ -1,8 +1,10 @@
+import { RxTriangleRight } from "react-icons/rx";
+
 const Skills = () => {
   const techStack = [
     {
       name: "Backend",
-      techs: ["NodeJS", "ExpressJS", "Django", "Flask"],
+      techs: ["NodeJS", "ExpressJS", "Django", "Flask", "GraphQL"],
     },
     {
       name: "Frontend",
@@ -19,7 +21,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="w-screen md:max-w-5xl mx-auto  px-6 py-20">
+    <section id="skills" className="w-screen md:max-w-5xl mx-auto px-6 py-20">
       <pre className="text-2xl font-semibold">
         <span className="font-normal text-[#3de0d0]">02. </span>Tech Stack
       </pre>
@@ -30,9 +32,14 @@ const Skills = () => {
             <h3 className="text-lg font-medium text-[#3de0d0] mb-4">
               {stack.name}
             </h3>
-            <ul className="list-disc list-inside text-[#7487a3]">
+            <ul className="list-none list-inside text-[#7487a3]">
               {stack.techs.map((tech) => (
-                <li key={tech}>{tech}</li>
+                <>
+                  <li key={tech} className="flex items-center gap-2 mb-3">
+                    <RxTriangleRight className="text-[#3de0d0]" />
+                    {tech}
+                  </li>
+                </>
               ))}
             </ul>
           </div>
