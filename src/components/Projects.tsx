@@ -41,7 +41,7 @@ const Projects = () => {
       description:
         "RadixStaker A real-time blockchain portfolio dashboard for the Radix DLT network, visualizing epoch-based staking data, validator metrics, and wallet performance through GraphQL APIs",
       techStack: ["Django", "React", "MySQL"],
-      link: "#",
+      link: "https://radixstaker.com/",
     },
   ];
 
