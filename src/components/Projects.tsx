@@ -4,7 +4,7 @@ const Projects = () => {
   const projects = [
     {
       name: "SmartApply — AI Job Search Automation",
-      img: "/smartApply.png",
+      img: "/smartApply.jpg",
       description:
         "SmartApply An AI-powered job search automation platform that scrapes Indeed listings, scores resume-job fit using GPT-4o, and generates cover letters built on an event-driven pipeline with AWS SQS, BullMQ, and PostgreSQL.",
       techStack: [
@@ -21,7 +21,7 @@ const Projects = () => {
     },
     {
       name: "ResumeVault — Job Application Tracker",
-      img: "/project_files/resumeVault.png",
+      img: "/resumeVault.jpg",
       description:
         "ResumeVault A full-stack job application tracker with JWT authentication, status management, and direct-to-S3 document uploads via presigned URLs, deployed on AWS EC2 with a CloudFront-served React frontend.",
       techStack: [
@@ -37,10 +37,10 @@ const Projects = () => {
     },
     {
       name: "RadixStaker — Blockchain Portfolio Dashboard",
-      img: "/radixStaker.png",
+      img: "/radixStaker.jpg",
       description:
         "RadixStaker A real-time blockchain portfolio dashboard for the Radix DLT network, visualizing epoch-based staking data, validator metrics, and wallet performance through GraphQL APIs",
-      techStack: ["Django", "React", "MySQL"],
+      techStack: ["React", "TypeScript", "GraphQL", "Radix DLT", "AWS"],
       link: "https://radixstaker.com/",
     },
   ];
